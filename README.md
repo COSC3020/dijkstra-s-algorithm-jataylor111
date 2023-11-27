@@ -20,3 +20,7 @@ to be the most efficient one!
 
 What is the big $\Theta$ complexity of your implementation? Add your
 answer, including your reasoning, to this markdown file.
+
+## My Response
+
+The $\Theta$ should be $\Theta(V^2)$ because in the worst case it would need to go through each node twice, until it finds the shortest distance.
