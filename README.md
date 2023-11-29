@@ -23,4 +23,4 @@ answer, including your reasoning, to this markdown file.
 
 ## My Response
 
-The $\Theta$ should be $\Theta(V^2)$ because in the worst case it would need to go through each node twice, until it finds the shortest distance.
+The $\Theta$ should be $\Theta(V^3 + E)$ because initially it runs through the nodes in a for loop, and then as it runs through to find the distances I have a nested While/For loop that would give us a $V^3$ but it must also run through each applicable edge which would give us an $E$, culminating in a compexity of $\Theta(V^3 + E)$
