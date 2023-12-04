@@ -23,4 +23,5 @@ answer, including your reasoning, to this markdown file.
 
 ## My Response
 
-The $\Theta$ should be $\Theta(V^3 + E)$ because initially it runs through the nodes in a for loop, and then as it runs through to find the distances I have a nested While/For loop that would give us a $V^3$ but it must also run through each applicable edge which would give us an $E$, culminating in a compexity of $\Theta(V^3 + E)$
+The $\Theta$ should be $\Theta(V^2 + E)$ because initially it has one nested for loop, and one regular for loop for the verteces $\Theta(V^2 + V)$  which simplifies down to just $\Theta(V^2)$ and has to consider every edge in the worst case $\Theta(E)$ which ends up with the total time complexity of 
+$\Theta(V^2 + E)$
