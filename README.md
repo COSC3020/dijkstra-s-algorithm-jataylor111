@@ -1,3 +1,4 @@
+[![Open in Visual Studio Code](https://classroom.github.com/assets/open-in-vscode-718a45dd9cf7e7f842a935f5ebbe5719a5e09af4491e668f4dbf3b35d5cca122.svg)](https://classroom.github.com/online_ide?assignment_repo_id=12577705&assignment_repo_type=AssignmentRepo)
 # Dijkstra's Algorithm
 
 Recall the pseudocode for Dijkstra's algorithm:
@@ -19,3 +20,8 @@ to be the most efficient one!
 
 What is the big $\Theta$ complexity of your implementation? Add your
 answer, including your reasoning, to this markdown file.
+
+## My Response
+
+The $\Theta$ should be $\Theta(V^2 + E)$ because initially it has one nested for loop, and one regular for loop for the verteces $\Theta(V^2 + V)$  which simplifies down to just $\Theta(V^2)$ and has to consider every edge in the worst case $\Theta(E)$ which ends up with the total time complexity of 
+$\Theta(V^2 + E)$
